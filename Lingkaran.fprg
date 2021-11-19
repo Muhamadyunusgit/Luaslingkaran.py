@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-02 04:10:14 "/>
+        <attribute name="created" value="dXNlcjtVU0VSLVBDOzIwMjEtMTEtMDI7IjAzOjUwOjQ5ICI7MjE0Mw=="/>
+        <attribute name="edited" value="dXNlcjtVU0VSLVBDOzIwMjEtMTEtMDI7IjA0OjEwOjE0ICI7MTsyMjQw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="PHI, L, K" type="Real" array="False" size=""/>
+            <declare name="r" type="Integer" array="False" size=""/>
+            <assign variable="PHI" expression="3.14"/>
+            <output expression="&quot;Menghitung luas dan Keliling Lingkaran&quot;" newline="True"/>
+            <output expression="&quot;Masukkan nilai jari-jari=&quot;" newline="False"/>
+            <input variable="r"/>
+            <assign variable="L" expression="PHI*(r*r*2)"/>
+            <assign variable="K" expression="2*PHI*r"/>
+            <output expression="&quot;Hasil luas=&quot;" newline="True"/>
+            <output expression="L" newline="True"/>
+            <output expression="&quot;Hasil Keliling =&quot;" newline="False"/>
+            <output expression="K" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
